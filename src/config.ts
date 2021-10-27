@@ -465,7 +465,7 @@ const store = {
     'xboxss',
     'xboxsx',
   ]),
-  stores: envOrArray(process.env.STORES, ['alternate-de', 'alza']).map(entry => {
+  stores: envOrArray(process.env.STORES, ['alza']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
     let proxyList = loadProxyList(name);

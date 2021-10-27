@@ -116,12 +116,6 @@ export const AlternateFr: Store = {
       url: 'https://m.alza.cz/gaming/palit-geforce-rtx-3060-stormx-oc-12g-d6334311.htm',
     },
     {
-      brand: 'evga',
-      model: 'ftw3 ultra',
-      series: '3070ti',
-      url: 'https://m.alza.cz/evga-geforce-rtx-3070-ti-ftw3-ultra-d6539748.htm',
-    },
-    {
       brand: 'palit',
       model: 'dual',
       series: '3060',
